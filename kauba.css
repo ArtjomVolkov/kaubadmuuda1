@@ -1,0 +1,63 @@
+div#table{
+    position: fixed;
+    top: 4px;
+}
+div#lisa{
+    position: fixed;
+    bottom: 60px;
+    left: 500px;
+}
+table {
+    border: 4px double #333; /* ذ ذ°ذ¼ذ؛ذ° ذ²ذ¾ذ؛ر€رƒذ³ ر‚ذ°ذ±ذ»ذ¸ر†ر‹ */
+    border-collapse: separate; /* ذ،ذ؟ذ¾رپذ¾ذ± ذ¾ر‚ذ¾ذ±ر€ذ°ذ¶ذµذ½ذ¸رڈ ذ³ر€ذ°ذ½ذ¸ر†ر‹ */
+    border-spacing: 7px 11px; /* ذ ذ°رپرپر‚ذ¾رڈذ½ذ¸ذµ ذ¼ذµذ¶ذ´رƒ رڈر‡ذµذ¹ذ؛ذ°ذ¼ذ¸ */
+}
+td {
+    padding: 5px; /* ذںذ¾ذ»رڈ ذ²ذ¾ذ؛ر€رƒذ³ ر‚ذµذ؛رپر‚ذ° */
+    border: 1px solid #a52a2a; /* ذ“ر€ذ°ذ½ذ¸ر†ذ° ذ²ذ¾ذ؛ر€رƒذ³ رڈر‡ذµذµذ؛ */
+}
+
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=text]{
+    margin-top: 2px;
+    display: inline-block; /*ط·آ°ط¢آ½ط·آ°ط¢آµ ط·آ°ط¢آ±ط·آ±أ¢â‚¬آ¹ط·آ°ط¢آ» ط·آ°ط¢آ²ط·آ±أ¢â‚¬آ¹ط·آ±أ¢â‚¬ع‘ط·آ°ط¢آµط·آ°ط¢آ½ط·آ±ط¦â€™ط·آ±أ¢â‚¬ع‘ط·آ±أ¢â‚¬آ¹ط·آ°ط¢آ¼*/
+    box-sizing: border-box; /*ط·آ°ط¢آ½ط·آ°ط¢آµ ط·آ°ط¢آ±ط·آ±أ¢â‚¬آ¹ط·آ°ط¢آ» ط·آ°ط¢آ²ط·آ±أ¢â‚¬آ¹ط·آ±أ¢â‚¬ع‘ط·آ°ط¢آµط·آ°ط¢آ½ط·آ±ط¦â€™ط·آ±أ¢â‚¬ع‘ط·آ±أ¢â‚¬آ¹ط·آ°ط¢آ¼*/
+    border: 1px solid #cc3912;
+    border-radius: 4px;
+    text-align: center;
+}
+input[type=number]{
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 4px;
+}
+.textarea{
+    position: relative;
+    top: 70px;
+    padding: 12px;
+
+    resize: none;
+    width: 100%;
+    height: calc(100% - 70px);
+    background-color: #4b1d3f;
+    border: none;
+    color: #FFFFFF;
+    margin: 0px;
+    font-size: 1.1rem;
+}
